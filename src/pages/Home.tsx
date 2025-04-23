@@ -1,10 +1,14 @@
 // src/pages/Home.tsx
 import React from 'react';
 import Typewriter from '../components/Typewriter';
+import DarkModeToggle from '../components/DarkModeToggle';
 
 export default function Home() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900 text-center px-4">
+      <div className='absolute top-4 right-4'>
+        <DarkModeToggle />
+      </div>
       <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
         Spencer Navas
       </h1>
