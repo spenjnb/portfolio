@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+html {
+  transition: background-color 0.3s ease-in-out;
+}
+
+body {
+  transition: background-color .3s ease;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
