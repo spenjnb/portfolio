@@ -5,7 +5,7 @@ import FadeInSection from '../components/FadeInSection';
 
 export default function Home() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-gray-300 dark:bg-gray-900 text-center px-4">
+    <section className="min-h-screen flex flex-col items-center justify-center transition-colors duration-300 bg-gray-300 dark:bg-gray-900 text-center px-4">
       <div className='absolute top-4 right-4'>
         <DarkModeToggle />
       </div>
